@@ -1,0 +1,14 @@
+.header {
+  display: flex;
+  background-color: black;
+  height: 125px;
+  margin: none;
+  padding: none;
+  justify-content: center;
+  align-items: center;  /* workd on a div whereas align-self worked on a label element?? */
+}
+
+.header h1 {
+  color: white;
+  text-align: center;
+}

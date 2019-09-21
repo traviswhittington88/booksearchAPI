@@ -1,0 +1,17 @@
+h1 {
+    color: black;
+}
+
+.search-result {
+    text-decoration: none;
+    list-style: none;
+}
+
+.book-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.content {
+    display: inline-block;
+}

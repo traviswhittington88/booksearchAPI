@@ -1,0 +1,30 @@
+
+.searchbar  {
+    display: flex;
+    justify-content: center;
+    background: grey;
+    padding: 20px;
+}
+
+.searchbar label {
+    align-self: center;
+    padding-right: 10px;
+}
+
+.searchbar input {
+    height: 25px;
+}
+
+.search-filters {
+    padding: 20px 0px 20px 400px;
+    background: lightgrey;
+   
+}
+
+.search-filters input[type=number]::placeholder {
+    color: red;
+}
+
+.search-filters label[for='Book Type'] {
+    margin-left: 20px;
+}
